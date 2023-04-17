@@ -13,6 +13,9 @@ exports.homeRoutes = (req, res) => {
 
     
 }
+exports.first = (req, res) =>{
+    res.render('first');
+}
 
 exports.add_user = (req, res) =>{
     res.render('add_user');

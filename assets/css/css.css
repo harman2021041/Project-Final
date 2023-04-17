@@ -1,0 +1,27 @@
+.bg{
+    background-image: url("http://theartmad.com/wp-content/uploads/2015/08/Wedding-Rings-Background-4.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.bgnav{
+    background: rgba(255, 157, 157, 0.6);
+}
+.modalbg{
+    background: linear-gradient(to bottom right, rgb(255, 144, 144), rgb(255, 255, 255));
+}
+.ab{
+    margin-top: 200px;
+}
+.navtext{
+    text-decoration: underline;
+    font-weight: bold;
+}
+.bgdestination{
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.4), rgba(247, 88, 20, 0.4)),url("https://pixy.org/src/474/4747938.jpg");
+    background-size: cover;
+    background-position: top;
+}
+.deco{
+    text-decoration: none !important;
+}
