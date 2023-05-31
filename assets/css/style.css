@@ -66,7 +66,7 @@ a {
 }
 
 #header nav{
-    background-color: #06d6a0;
+    background-color: #ff979d;
     padding: 1em 0;
     width: 100%;
 }
@@ -89,7 +89,9 @@ table{
     border-spacing: 0px;
     width: 100%;
 }
-
+.bggg{
+    background-color: #070707;
+}
 .table td, .table th{
     padding: .75em;
     vertical-align: top;
@@ -103,8 +105,9 @@ table{
     margin: 0 .2em;
 }
 
+
 .table tr:hover{
-    background-color:#06d6a0 ;
+    background-color:#ff89a7 ;
 }
 
 .table tr:hover td > a{
@@ -112,9 +115,9 @@ table{
 }
 
 .table .thead-dark th{
-    color: #fff;
-    background-color: var(--dark) ;
-    border-color: #32383e;
+    color: #070707;
+    background-color: #ffa8be ;
+    border-color: #ffa8be;
 }
 
 @media only screen and (max-width: 1024px){
@@ -197,13 +200,13 @@ table{
 }
 
 .radio input[type='radio']:checked + .radio-label:before{
-    background-color: #16db93;
+    background-color: #fd9ab3;
     box-shadow: inset 0 0 0 4px #e9ecef;
 }
 
 .radio input[type='radio']:focus + .radio-label:before{
     outline: none;
-    border-color:#16db93;
+    border-color:#f597a6;
 }
 
 .radio input[type='radio']:disabled + .radio-label:before{
@@ -216,7 +219,7 @@ table{
 #add_user .form-group .btn{
     width: 100%;
     padding: .9em 1em;
-    background-color:#16db93; 
+    background-color:#fda5b3; 
     border: none;
     font-family: 'PT Sans', sans-serif;
     font-size: 1em;
@@ -227,6 +230,6 @@ table{
 
 #update_user .form-group .btn:hover,
 #add_user .form-group .btn:hover{
-    background-color: var(--dark);
+  
     color: var(--border);
 }
